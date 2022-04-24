@@ -25,6 +25,17 @@ function App() {
 
   }, [])  
 
+  const getData = () => {
+    axios
+      .get(baseUrl)
+      .then(response => {
+        console.log(response.data)
+        setData(response.data)
+        
+      })
+      .catch(error => console.log('error'))
+  }
+
   return (
     <div className="App">
       <h2 style={{fontSize: 50}}>Phonebook</h2> 
