@@ -1,6 +1,6 @@
 # Description
 
-Simple project to remember all contants in one place. App uses database (JSON) to store them.
+Simple project to remember all contacts in one place. App uses database (JSON) to store them.
 
 # Getting Started with Create React App
 
