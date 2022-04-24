@@ -1,3 +1,7 @@
+# Description
+
+Simple project to remember all contants in one place. App uses database (JSON) to store them.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
